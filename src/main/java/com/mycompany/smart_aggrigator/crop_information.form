@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="472" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="285" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="5" rowCount="16">
+                <Column editable="true" title="Crop name" type="java.lang.Object">
+                  <Data value="Rice "/>
+                  <Data value="Wheat"/>
+                  <Data value="Pulses"/>
+                  <Data value="Maize"/>
+                  <Data value="Barley"/>
+                  <Data value="Millet"/>
+                  <Data value="Rye"/>
+                  <Data value="Sorghum"/>
+                  <Data value="Sugarcane"/>
+                  <Data value="Brown nuts"/>
+                  <Data value="Soybeans"/>
+                  <Data value="Cotton"/>
+                  <Data value="Tomato"/>
+                  <Data value="Potato"/>
+                  <Data value="Onion"/>
+                  <Data value="Tobaco"/>
+                </Column>
+                <Column editable="true" title="Temperature" type="java.lang.Object">
+                  <Data value="15-27"/>
+                  <Data value="12-25"/>
+                  <Data value="20-27"/>
+                  <Data value="15-27"/>
+                  <Data value="12-15"/>
+                  <Data value="20-35"/>
+                  <Data value="5-20"/>
+                  <Data value="26-30"/>
+                  <Data value="20-35"/>
+                  <Data value="20-30"/>
+                  <Data value="12-15"/>
+                  <Data value="18-27"/>
+                  <Data value="21-24"/>
+                  <Data value="30-32"/>
+                  <Data value="20-25"/>
+                  <Data value="20-30"/>
+                </Column>
+                <Column editable="true" title="Soil type" type="java.lang.Object">
+                  <Data value="heavy-clayey to clayey-loam"/>
+                  <Data value="well drained light clay to heavy clay"/>
+                  <Data value="sandy loam"/>
+                  <Data value="deep heavy clay to light sandy loam"/>
+                  <Data value="sandy to moderately heavy loam"/>
+                  <Data value="sandy loam to clayey loam"/>
+                  <Data value="sandy "/>
+                  <Data value="well drained loamy soil"/>
+                  <Data value="well drained alluvium"/>
+                  <Data value="sandy loam"/>
+                  <Data value="sandy loam"/>
+                  <Data value="well drained loam and regur"/>
+                  <Data value="sandy to clay loam soil"/>
+                  <Data value="loamy and sandy soil"/>
+                  <Data value="heavy clayey sandy loam"/>
+                  <Data value="alluvial soil"/>
+                </Column>
+                <Column editable="true" title="Rainfall (cm)" type="java.lang.Object">
+                  <Data value="100-150"/>
+                  <Data value="25-75"/>
+                  <Data value="25-60"/>
+                  <Data value="65-125"/>
+                  <Data value="39-43"/>
+                  <Data value="25-75"/>
+                  <Data value="30-50"/>
+                  <Data value="45-65"/>
+                  <Data value="85-165"/>
+                  <Data value="45-125"/>
+                  <Data value="60-65"/>
+                  <Data value="60-110"/>
+                  <Data value="60-150"/>
+                  <Data value="30-45"/>
+                  <Data value="65-75"/>
+                  <Data value="50-100"/>
+                </Column>
+                <Column editable="true" title="water (mm)" type="java.lang.Object">
+                  <Data value="900-2500"/>
+                  <Data value="450-650"/>
+                  <Data value="450-650"/>
+                  <Data value="500-800"/>
+                  <Data value="100-125"/>
+                  <Data value="450-650"/>
+                  <Data value="152-304"/>
+                  <Data value="450-600"/>
+                  <Data value="1500-2500"/>
+                  <Data value="450-500"/>
+                  <Data value="450-700"/>
+                  <Data value="700-1300"/>
+                  <Data value="600-800"/>
+                  <Data value="500-700"/>
+                  <Data value="350-550"/>
+                  <Data value="400-600"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
